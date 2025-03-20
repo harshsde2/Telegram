@@ -1,12 +1,6 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-
-const _layout = () => {
+import { Slot } from 'expo-router'
+export default function RootLayout() {
   return (
-    <View>
-      <Text>_layout</Text>
-    </View>
+    <Slot />
   )
 }
-
-export default _layout
