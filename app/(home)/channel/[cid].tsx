@@ -3,6 +3,7 @@ import { useLocalSearchParams } from "expo-router";
 import { Channel, MessageList, MessageInput, useChatContext } from "stream-chat-expo";
 import { Channel as ChannelType } from "stream-chat";
 import { useEffect, useState } from "react";
+
 export default function ChannelScreen() {
     const { cid } = useLocalSearchParams();
     const [channel, setChannel] = useState<ChannelType | null>(null);
