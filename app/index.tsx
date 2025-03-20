@@ -3,8 +3,9 @@ import React from 'react'
 
 const HomeScreen = () => {
   return (
-    <Redirect href="/(home)/(tabs)" />
+    <Redirect href="/(auth)/login" />
+    // <Redirect href="/(home)/(tabs)" />
   )
 }
 
-export default HomeScreen
+export default HomeScreen 
